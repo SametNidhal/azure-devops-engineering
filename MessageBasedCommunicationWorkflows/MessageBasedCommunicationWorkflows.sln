@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "implement-message-workflows-with-service-bus", "implement-message-workflows-with-service-bus", "{367CC94D-3292-446E-8DEC-9EE8F22C51AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0852C4AA-67EB-424E-8830-248C3B4270D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "final", "final", "{BA97A9CA-D53E-481B-8B0B-237B595498DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "performancemessagereceiver", "implement-message-workflows-with-service-bus\src\final\performancemessagereceiver\performancemessagereceiver.csproj", "{96673FD3-906F-4E6C-9C54-93E0C59BFF7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "performancemessagesender", "implement-message-workflows-with-service-bus\src\final\performancemessagesender\performancemessagesender.csproj", "{5E14F9CC-95B4-46E8-998A-31CBDBAE6428}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "privatemessagereceiver", "implement-message-workflows-with-service-bus\src\final\privatemessagereceiver\privatemessagereceiver.csproj", "{6093FC2F-3F16-494D-AC9F-167E9A0E75E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "privatemessagesender", "implement-message-workflows-with-service-bus\src\final\privatemessagesender\privatemessagesender.csproj", "{308EC60A-0198-4C92-A89D-1566F42D5A24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "start", "start", "{C65AE566-267B-4E23-943B-CAB84CFD6CBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "performancemessagereceiver", "implement-message-workflows-with-service-bus\src\start\performancemessagereceiver\performancemessagereceiver.csproj", "{D0E06084-BCEC-42B9-B0D6-B6862DC7BBCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "performancemessagesender", "implement-message-workflows-with-service-bus\src\start\performancemessagesender\performancemessagesender.csproj", "{D71D459E-FAF4-4CA1-BB6A-FECDFC4680DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "privatemessagereceiver", "implement-message-workflows-with-service-bus\src\start\privatemessagereceiver\privatemessagereceiver.csproj", "{AB2774FA-ADF1-45D8-BD9A-0A31F1F3418B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "privatemessagesender", "implement-message-workflows-with-service-bus\src\start\privatemessagesender\privatemessagesender.csproj", "{AE59BEB9-2A9B-42B6-8802-72030B37B9A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96673FD3-906F-4E6C-9C54-93E0C59BFF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96673FD3-906F-4E6C-9C54-93E0C59BFF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96673FD3-906F-4E6C-9C54-93E0C59BFF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96673FD3-906F-4E6C-9C54-93E0C59BFF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E14F9CC-95B4-46E8-998A-31CBDBAE6428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E14F9CC-95B4-46E8-998A-31CBDBAE6428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E14F9CC-95B4-46E8-998A-31CBDBAE6428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E14F9CC-95B4-46E8-998A-31CBDBAE6428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6093FC2F-3F16-494D-AC9F-167E9A0E75E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6093FC2F-3F16-494D-AC9F-167E9A0E75E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6093FC2F-3F16-494D-AC9F-167E9A0E75E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6093FC2F-3F16-494D-AC9F-167E9A0E75E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308EC60A-0198-4C92-A89D-1566F42D5A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308EC60A-0198-4C92-A89D-1566F42D5A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308EC60A-0198-4C92-A89D-1566F42D5A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308EC60A-0198-4C92-A89D-1566F42D5A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E06084-BCEC-42B9-B0D6-B6862DC7BBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E06084-BCEC-42B9-B0D6-B6862DC7BBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E06084-BCEC-42B9-B0D6-B6862DC7BBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E06084-BCEC-42B9-B0D6-B6862DC7BBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71D459E-FAF4-4CA1-BB6A-FECDFC4680DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71D459E-FAF4-4CA1-BB6A-FECDFC4680DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71D459E-FAF4-4CA1-BB6A-FECDFC4680DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71D459E-FAF4-4CA1-BB6A-FECDFC4680DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2774FA-ADF1-45D8-BD9A-0A31F1F3418B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2774FA-ADF1-45D8-BD9A-0A31F1F3418B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2774FA-ADF1-45D8-BD9A-0A31F1F3418B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2774FA-ADF1-45D8-BD9A-0A31F1F3418B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE59BEB9-2A9B-42B6-8802-72030B37B9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE59BEB9-2A9B-42B6-8802-72030B37B9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE59BEB9-2A9B-42B6-8802-72030B37B9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE59BEB9-2A9B-42B6-8802-72030B37B9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0852C4AA-67EB-424E-8830-248C3B4270D3} = {367CC94D-3292-446E-8DEC-9EE8F22C51AB}
+		{BA97A9CA-D53E-481B-8B0B-237B595498DF} = {0852C4AA-67EB-424E-8830-248C3B4270D3}
+		{96673FD3-906F-4E6C-9C54-93E0C59BFF7D} = {BA97A9CA-D53E-481B-8B0B-237B595498DF}
+		{5E14F9CC-95B4-46E8-998A-31CBDBAE6428} = {BA97A9CA-D53E-481B-8B0B-237B595498DF}
+		{6093FC2F-3F16-494D-AC9F-167E9A0E75E3} = {BA97A9CA-D53E-481B-8B0B-237B595498DF}
+		{308EC60A-0198-4C92-A89D-1566F42D5A24} = {BA97A9CA-D53E-481B-8B0B-237B595498DF}
+		{C65AE566-267B-4E23-943B-CAB84CFD6CBA} = {0852C4AA-67EB-424E-8830-248C3B4270D3}
+		{D0E06084-BCEC-42B9-B0D6-B6862DC7BBCB} = {C65AE566-267B-4E23-943B-CAB84CFD6CBA}
+		{D71D459E-FAF4-4CA1-BB6A-FECDFC4680DB} = {C65AE566-267B-4E23-943B-CAB84CFD6CBA}
+		{AB2774FA-ADF1-45D8-BD9A-0A31F1F3418B} = {C65AE566-267B-4E23-943B-CAB84CFD6CBA}
+		{AE59BEB9-2A9B-42B6-8802-72030B37B9A4} = {C65AE566-267B-4E23-943B-CAB84CFD6CBA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DC72B85-BF0F-46E5-8FFE-21D671521B04}
+	EndGlobalSection
+EndGlobal
